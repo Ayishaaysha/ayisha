@@ -1,0 +1,278 @@
+@font-face {
+    font-family: 'Qwitcher Grypen';
+    src: url('/fonts/QwitcherGrypen-Bold.woff2') format('woff2'),
+        url('/fonts/QwitcherGrypen-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Qwitcher Grypen';
+    src: url('/fonts/QwitcherGrypen-Regular.woff2') format('woff2'),
+        url('/fonts/QwitcherGrypen-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/fonts/OpenSans-Regular.woff2') format('woff2'),
+        url('/fonts/OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/fonts/OpenSans-Italic.woff2') format('woff2'),
+        url('/fonts/OpenSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+* {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+div#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+
+}
+header { 
+    background-color: rgb(235, 202, 163);
+}
+
+header #spotlight { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header #spotlight .left { 
+
+}
+
+header #spotlight .left img { 
+    width: 120px;
+}
+
+header #spotlight .centre { 
+
+}
+
+header #spotlight .centre h1 { 
+
+}
+
+header #spotlight .right { 
+
+}
+
+header #spotlight .right ul { 
+    display: flex;
+    gap: 30px;
+    padding-right: 74px;
+}
+
+header #spotlight .right ul li { 
+
+}
+header #spotlight .right ul li.list {
+    padding-top: 6px;
+}
+
+header #spotlight .right ul li a { 
+
+}
+
+header #spotlight .right ul li a img { 
+    width: 30px;
+}
+header #spotlight .form { 
+    background-color: #000000;
+    position: relative;
+    top: 126px;
+    color: #fff;
+    padding: 55px;
+    display: none;
+}
+
+header #spotlight .form h1 { 
+
+}
+
+header #spotlight .form form { 
+    padding: 15px;
+}
+
+header #spotlight .form form input { 
+
+}
+
+header #spotlight .form button { 
+    position: relative;
+    left: 81px;
+    background-color: red;
+    padding: 7px;
+    color: #fff;
+    width: 77px;
+    
+}
+
+header #spotlight .table { 
+    position: relative;
+    top: 218px;
+    left: 320px;
+    background-color: #000;
+    color: #fff;
+    display: none;
+}
+
+main { 
+
+}
+
+main #about { 
+
+}
+
+main #about .container { 
+    padding-left: 86px;
+    padding-top: 64px;
+}
+
+main #about .container img { 
+    width: 500px;
+    border-radius: 30px;
+}
+
+main #about .right { 
+    position: relative;
+    bottom: 431px;
+    left: 755px;
+
+}
+
+main #about .right h1 { 
+    font-size: 60px;
+    
+}
+main #about .right h1::before {
+    content: "";
+    position: absolute;
+    top: 69px;
+    left: 0;
+    width: 43%;
+    height: 1%;
+    background-color: #000;
+
+}
+
+main #about .right h2 { 
+    font-size: 20px;
+    font-weight: 100;
+    padding-top: 23px;
+    padding-left: 129px;
+}
+
+main #about .button { 
+    position: relative;
+    bottom: 388px;
+    left: 993px;
+    background-color: #000;
+    width: 100px;
+    border-radius: 25px;
+    padding: 18px;
+    text-align: center;
+    animation-name: slide-in;
+    animation-timing-function: ease-in;
+    animation-delay: 3%;
+    animation-duration: 2s;
+}
+@keyframes slide-in {
+    0% {
+        transform:scale(0.5)
+    }
+    60% {
+        transform:scale(1.1)
+    }
+    100% {
+        transform:scale(1)
+    }
+
+}
+main #about .button a { 
+    color: #fff;
+    font-size: 16px;
+   
+}
+main #about .button:hover {
+    background-color:#08d5e4;
+    color:#fff;
+}
+
+
+main #about .drugs { 
+    position: relative;
+    bottom: 314px;
+}
+
+main #about .drugs ul { 
+    display: flex;
+    gap: 65px;
+    padding-left: 784px;
+}
+
+main #about .drugs ul li { 
+
+}
+
+main #about .drugs ul li img { 
+    width: 185px;
+    border-radius: 79px;
+}
+
+footer { 
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .left { 
+    padding-left: 30px;
+}
+
+footer .left h1 { 
+
+}
+
+footer .right { 
+    padding-right: 60px;
+}
+
+footer .right ul { 
+    display: flex;
+    gap: 30px;
+}
+
+footer .right ul li { 
+
+}
+
+footer .right ul li a { 
+
+}
+
+footer .right ul li a img { 
+    width: 40px;
+}
